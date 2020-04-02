@@ -1,7 +1,5 @@
 const whatsapp = require('../models/whatsapp')
 const createprov = require('../models/form')
-const accountSid = 'ACe5d43b4d1d7723d1f61247911699c8a9';
-const authToken = '47626fe702985facca4753eacd14c05d';
 const client = require('twilio')(accountSid, authToken);
 const _ = require('lodash')
 const sessionStorage = require('node-sessionstorage')
